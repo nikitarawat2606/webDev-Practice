@@ -1,9 +1,9 @@
 # webDev-Practice
 tasks submission for TuteDude site course
 
-# JavaScript Compound Interest Calculator
+# Task 12 : JavaScript Compound Interest Calculator
 
-# A simple JavaScript program to calculate compound interest using static variables and the standard financial formula.
+>> A simple JavaScript program to calculate compound interest using static variables and the standard financial formula.
 
 # Objective : Create a JavaScript program that calculates compound interest using variables, operators, and exponentiation.
 
@@ -29,6 +29,6 @@ tasks submission for TuteDude site course
 >> let A = P * Math.pow((1 + (r / n)), (n * t));
 >> let compoundInterest = A - P;
 
-# console.log("The compound interest after 3 years is: " + compoundInterest.toFixed(0));
+>> console.log("The compound interest after 3 years is: " + compoundInterest.toFixed(0));
 
 # Sample OutputThe compound interest after 3 years is: 50000
