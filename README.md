@@ -1,34 +1,21 @@
 # webDev-Practice
 tasks submission for TuteDude site course
 
-# JavaScript Compound Interest Calculator
+**Project Overview**
 
-# A simple JavaScript program to calculate compound interest using static variables and the standard financial formula.
+* This project is a simple JavaScript program designed to check whether a given number is even or odd.
 
-# Objective : Create a JavaScript program that calculates compound interest using variables, operators, and exponentiation.
+**Tasks**
 
-## Formula A = A = P * (1 + r/n)^(nt)
+* Write a JavaScript program that checks if a given number is even or odd.
+* Use multiple different variables in the program.
+* Use `console.log` to output a message showing whether the number is even or odd.
 
->> Where: A = Total amount , P = Principal amount, r = Annual interest rate (decimal), n = Compounding frequency per year , t = Time in years, 
+**Instructions**
 
->> Compound Interest: = A - P
+* Use an `if-else` statement to figure out if the number is even or odd.
 
-## How to RunCreate a file named script.js.
+**Sample Output**
 
->> Add your JavaScript code using variables and the formula.Run it using Node.js:node script.js
-
->> Alternatively, run it inside an HTML file via your browser console.
-
-# Code Example :
-
->> let principal = 400000;
->> let rate = 5;
->> let time = 3;
->> let compounds = 1;
-
->> let A = P * Math.pow((1 + (r / n)), (n * t));
->> let compoundInterest = A - P;
-
-# console.log("The compound interest after 3 years is: " + compoundInterest.toFixed(0));
-
-# Sample OutputThe compound interest after 3 years is: 50000
+* The number 5 is odd.
+* The number 10 is even.
