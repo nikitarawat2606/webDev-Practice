@@ -1,13 +1,43 @@
-// File: script.js
-import { calculateCompoundInterest } from './interest.js';
+let a = 5;
+let b=10;
+let c= 7;
+let d = 99;
 
-// Static variables using simple data types (numbers)
-let principal = 400000;
-let rate = 5;
-let time = 3;
-let compounds = 1;
+console.log("value of a:", a);
+console.log("value of b:", b);
+console.log("value of c:", c);
+console.log("value of d:", d);
 
-let result = calculateCompoundInterest(principal, rate, time, compounds);
+console.log("Now let's check whether the numbers are even or odd...");
 
-console.log("Total Amount: $" + result.totalAmount);
-console.log("Compound Interest: $" + result.compoundInterest);
+if(a % 2 == 0) {
+    console.log("Yayy!!! a is even :", a);
+}
+
+else{
+    console.log("Oh! a is odd :", a);
+}
+
+if(b % 2 == 0) {
+    console.log("Yayy!!! b is even :", b);
+}
+
+else{
+    console.log("Oh! b is odd :", b);
+}
+
+if(c % 2 == 0) {
+    console.log("Nice! c is even :", c);
+}
+
+else{
+    console.log("Oh! c is also odd :", c);
+}
+
+if(d % 2 == 0) {
+    console.log("Yayy!!! d is even :", d);
+}
+
+else{
+    console.log("Even, d is also odd :", d);
+}
