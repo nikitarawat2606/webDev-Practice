@@ -3,7 +3,7 @@ tasks submission for TuteDude site course
 
 **Project Overview**
 
-# Laundry Services Hero Section Animation - Task 3
+# Laundry Services Hero Section Animation - Task 10
 
 # Project Overview
 
