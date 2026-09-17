@@ -3,40 +3,44 @@ tasks submission for TuteDude site course
 
 **Project Overview**
 
-# Responsive Laundry Web App with Hamburger Menu
+# Laundry Service Hero Section
 
-Welcome to the Responsive Laundry Web App project! This version includes a fully responsive mobile layout featuring a Pure CSS Hamburger Menu (no JavaScript required).
+A modern, responsive hero section designed for a professional laundry and dry cleaning service website. Built using pure HTML5 and CSS3, it faithfully replicates the reference design with clean typography, a 3D-styled washing machine illustration, and an interactive animated Call to Action (CTA) button.
 
-# 🚀 Key Features
+# ✨ Features
 
-Desktop View: Features a clean navigation bar with the logo on the left, centered navigation links (Home, Services, About Us, Contact Us), and a user profile badge on the right. The hero section displays text on the left and a 3D washing machine illustration on the right.
+Pure HTML & CSS: Zero external JavaScript frameworks or complex build tools required; lightweight and lightning-fast.
 
-Mobile View (< 768px):
+Custom CTA Hover Effect: Features a smooth, eye-catching hover transition combining scaling, rotation, and skew effects (transform: scale(1.1) rotate(4deg) skewX(-2deg)).
 
-Automatically hides the desktop menu links.
+Responsive Design: Fully adaptable layout that seamlessly transitions from desktop multi-column grids to optimized mobile stacks.
 
-Displays a hamburger menu icon next to the username badge.
+Custom Illustration Styling: Pure CSS 3D-styled washing machine graphic complete with control panels, washing window drum, detergent stacks, and a laundry basket.
 
-Stacks the hero text and "Book a service today!" button neatly above the washing machine image.
+Modern Typography: Integrated with Google Fonts (Plus Jakarta Sans) for a clean, professional look.
 
-# Pure CSS Hamburger Dropdown:
+# 🚀 Getting Started
 
-Uses the :focus-within pseudo-class wrapped around the button container to toggle the slide-out menu.
+To view or run the project locally, follow these simple steps:
 
-When clicked/focused, a sleek dark overlay panel slides in smoothly from the right side of the screen displaying white navigation links.
+Clone or download this repository.
 
-# 🛠️ Technologies Used
+Ensure you have the index.html file saved in your working directory.
 
-HTML5: For page structure and semantic elements.
+Open index.html directly in any modern web browser (Chrome, Firefox, Safari, Edge).
 
-CSS3: For advanced Flexbox layout, responsive media queries, and pure CSS interactivity (:focus-within).
+# 📂 Project Structure
 
-Google Fonts (Inter): For clean and modern typography.
+├── index.html       # Main HTML file containing structure and embedded CSS
+└── README.md        # Project documentation and guide
 
-# 🏃 How to Run the App
 
-Save the code into a file named laundry_app.html.
+# 🎨 Customization
 
-Open the file in any modern web browser (Chrome, Firefox, Edge, Safari).
+You can easily customize the theme colors and styling by modifying the CSS variables located in the :root selector within index.html:
 
-Resize your browser window below 768px (or open Developer Tools device toolbar) to view the hamburger menu and test clicking the icon!
+:root {
+    --primary-color: #0ea5e9;       /* Main brand sky blue */
+    --primary-hover: #0284c7;       /* Darker shade for hover states */
+    --text-main: #
+}
