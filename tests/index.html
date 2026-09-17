@@ -3,90 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revitalize Your Clothes with Expert Laundry Services!</title>
-    <link href="../CSS/style.css" rel="stylesheet">
-    
+    <title>Laundry Services Hero Section</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
 
-    <header>
+    <!-- Header / Navbar Section -->
+    <header class="navbar">
         <div class="logo">Logo</div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#about">About Us</a>
-            <a href="#contact">Contact Us</a>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
         </nav>
-        <div>
-            <button class="user-btn">Username</button>
-        </div>
+        <button class="user-btn">Username</button>
     </header>
 
-    <main>
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1>
-                    Revitalize Your Clothes with Expert<br>
-                    <span>Laundry Services!</span>
-                </h1>
-                <p>
-                    From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!
-                </p>
-                <a href="#book" class="cta-button">
-                    <span>Book a service today!</span>
-                </a>
-            </div>
+    <!-- Hero Main Section -->
+    <main class="hero-section">
+        <!-- Left Text Content -->
+        <div class="hero-content">
+            <h1>Revitalize Your Clothes with Expert <span class="highlight">Laundry Services!</span></h1>
+            <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+            <button class="cta-btn">Book a service today!</button>
+        </div>
 
-            <div class="hero-illustration">
-                <div class="glow-bg"></div>
-                <div class="machine-card">
-                    <div class="laundry-stack">
-                        <div class="stack-1"></div>
-                        <div class="stack-2"></div>
-                        <div class="stack-3"></div>
-                    </div>
-
-                    <div class="washer">
-                        <div class="washer-header">
-                            <div class="washer-dots">
-                                <div class="dot"></div>
-                                <div class="dot"></div>
-                            </div>
-                            <div class="knob"></div>
-                        </div>
-
-                        <div class="washer-window">
-                            <div class="drum-inner">
-                                <div class="drum-center"></div>
-                            </div>
-                        </div>
-
-                        <div class="washer-footer">
-                            <div class="foot"></div>
-                            <div class="foot"></div>
-                        </div>
-                    </div>
-
-                    <div class="basket">
-                        <div class="basket-cloth"></div>
-                    </div>
-
-                    <div class="play-btn">
-                        <div class="play-triangle"></div>
-                    </div>
-                </div>
-            </div>
+        <!-- Right Video Container using Iframe -->
+        <div class="hero-image-container">
+            <iframe 
+                class="hero-video" 
+                src="https://assets.pinterest.com/ext/embed.html?id=99712579247911863" 
+                width="450" 
+                height="320" 
+                scrolling="no"
+                title="Laundry Services Video" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
         </div>
     </main>
-
-    <footer>
-        <p>&copy; 2026 LaundryCare Services. All rights reserved.</p>
-        <div class="footer-links">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Support</a>
-        </div>
-    </footer>
-
 </body>
 </html>

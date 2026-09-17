@@ -3,44 +3,42 @@ tasks submission for TuteDude site course
 
 **Project Overview**
 
-# Laundry Service Hero Section
+# Laundry Services Hero Section Animation - Task 3
 
-A modern, responsive hero section designed for a professional laundry and dry cleaning service website. Built using pure HTML5 and CSS3, it faithfully replicates the reference design with clean typography, a 3D-styled washing machine illustration, and an interactive animated Call to Action (CTA) button.
+# Project Overview
 
-# ✨ Features
+This project extends our laundry services hero section by adding a custom, eye-catching animation effect to the hero media element, replicating the behavior demonstrated in the task video.
 
-Pure HTML & CSS: Zero external JavaScript frameworks or complex build tools required; lightweight and lightning-fast.
+>> Problem Statement
 
-Custom CTA Hover Effect: Features a smooth, eye-catching hover transition combining scaling, rotation, and skew effects (transform: scale(1.1) rotate(4deg) skewX(-2deg)).
+The goal is to replicate the specified animation effect where the visual element moves in an orbit-like rotation combined with squeezing/scaling effects at certain points to create a dynamic, engaging presentation.
 
-Responsive Design: Fully adaptable layout that seamlessly transitions from desktop multi-column grids to optimized mobile stacks.
+>> Features
 
-Custom Illustration Styling: Pure CSS 3D-styled washing machine graphic complete with control panels, washing window drum, detergent stacks, and a laundry basket.
+Custom CSS Keyframe Animation: Built with smooth transitions, combining translation and scaling transforms (scale, translate, rotate) using @keyframes.
 
-Modern Typography: Integrated with Google Fonts (Plus Jakarta Sans) for a clean, professional look.
+Responsive Hero Layout: Clean HTML structure incorporating a navbar, marketing typography, CTA button, and the animated media frame.
 
-# 🚀 Getting Started
+# Technologies Used
 
-To view or run the project locally, follow these simple steps:
+1. HTML5
 
-Clone or download this repository.
+2. CSS3 (Flexbox, Keyframes, Custom Transforms)
 
-Ensure you have the index.html file saved in your working directory.
+# Project File Structure
 
-Open index.html directly in any modern web browser (Chrome, Firefox, Safari, Edge).
+YourName_Task10/
+│
+├── CSS/
+│   └── style.css
+├── index.html
+└── README.md
 
-# 📂 Project Structure
 
-├── index.html       # Main HTML file containing structure and embedded CSS
-└── README.md        # Project documentation and guide
+# How to Run the Project
 
+1. Download or clone this folder to your local machine.
 
-# 🎨 Customization
+2. Ensure index.html is in the root directory and style.css is placed inside the CSS/ folder.
 
-You can easily customize the theme colors and styling by modifying the CSS variables located in the :root selector within index.html:
-
-:root {
-    --primary-color: #0ea5e9;       /* Main brand sky blue */
-    --primary-hover: #0284c7;       /* Darker shade for hover states */
-    --text-main: #
-}
+3. Open index.html in your browser (using the Live Server extension in VS Code is recommended).
