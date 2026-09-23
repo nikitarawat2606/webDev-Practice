@@ -3,42 +3,50 @@ tasks submission for TuteDude site course
 
 **Project Overview**
 
-# Laundry Services Hero Section Animation - Task 10
+# JavaScript Array Operations Assignment
 
-# Project Overview
+This project contains simple JavaScript functions that perform various operations on an array, as required by the assignment objectives. It demonstrates the use of different function types, such as arrow functions and anonymous functions.
 
-This project extends our laundry services hero section by adding a custom, eye-catching animation effect to the hero media element, replicating the behavior demonstrated in the task video.
+# Objective
 
->> Problem Statement
+>> The objective of this assignment is to create JavaScript functions that receive an array as an argument and perform the following operations:
 
-The goal is to replicate the specified animation effect where the visual element moves in an orbit-like rotation combined with squeezing/scaling effects at certain points to create a dynamic, engaging presentation.
+1. Find the maximum number in the array.
 
->> Features
+2. Calculate the sum of all elements in the array.
 
-Custom CSS Keyframe Animation: Built with smooth transitions, combining translation and scaling transforms (scale, translate, rotate) using @keyframes.
+3. Count the number of odd numbers in the array.
 
-Responsive Hero Layout: Clean HTML structure incorporating a navbar, marketing typography, CTA button, and the animated media frame.
+4. Use a dummy array for testing purposes.
 
-# Technologies Used
+5. Display the results on the console.
 
-1. HTML5
+# Tasks & Implementation Details
 
-2. CSS3 (Flexbox, Keyframes, Custom Transforms)
+> Dummy Array: Uses [4, 8, 2, 11, 6, 7, 10] as the sample test data.
 
-# Project File Structure
+1. Maximum Number Function: Implemented as an arrow function using Math.max() combined with the spread operator.
 
-YourName_Task10/
-│
-├── CSS/
-│   └── style.css
-├── index.html
-└── README.md
+2. Sum Calculation Function: Implemented as an anonymous function using a standard loop to aggregate values.
+
+3. Odd Count Function: Implemented as an arrow function to check each element's remainder when divided by 2.
+
+# Sample Output
+
+>> When you run the script, you will see the following output in your console:
+
+>> Ex Array:- [4, 8, 2, 11, 6, 7, 10]
+Maximum number: 11
+Sum of all elements: 48
+Count of odd numbers: 2
 
 
-# How to Run the Project
+# How to Run
 
-1. Download or clone this folder to your local machine.
+Ensure you have Node.js installed on your computer, or use any modern web browser's developer console.
 
-2. Ensure index.html is in the root directory and style.css is placed inside the CSS/ folder.
+Save the JavaScript code in a file named script.js.
 
-3. Open index.html in your browser (using the Live Server extension in VS Code is recommended).
+Open your terminal or command prompt and run:
+
+node script.js
